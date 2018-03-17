@@ -3,7 +3,7 @@ setInterval(function(){
 		if(document.getElementsByClassName("irc_vpl irc_lth")[i].href != document.getElementsByClassName("irc_mimg irc_hic")[i].getElementsByClassName("irc_mi")[0].src)
 		{
 			document.getElementsByClassName("irc_vpl irc_lth")[i].href = document.getElementsByClassName("irc_mimg irc_hic")[i].getElementsByClassName("irc_mi")[0].src;
-			document.getElementsByClassName("irc_vpl irc_lth")[i].innerHTML = "<span class='Tl8XHc'>Open image in new tab</span>"
+			document.getElementsByClassName("irc_vpl irc_lth")[i].innerHTML = "<span class='Tl8XHc'>View Image</span>"
 		}
 	}
 },33);
